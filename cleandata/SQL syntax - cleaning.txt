@@ -1,0 +1,71 @@
+CREATE TABLE IF NOT EXISTS public.budget (
+    fiscalyear INTEGER,
+    actual_reestimated_budget VARCHAR(255),
+    aea VARCHAR(255),
+    dist VARCHAR(255),
+    de_district VARCHAR(255),
+    district_name VARCHAR(255),
+    column_name VARCHAR(255),
+    fund VARCHAR(255),
+    source VARCHAR(255),
+    expenditures_per_pupil INTEGER,
+    amount INTEGER,
+    enrollment_category VARCHAR(255),
+    enrollment_category_number VARCHAR(255)
+);
+
+select * from budget
+
+ALTER TABLE budget
+DROP COLUMN actual_reestimated_budget,
+DROP COLUMN aea,
+DROP COLUMN de_district,
+DROP COLUMN column_name,
+DROP COLUMN fund;
+
+SELECT *
+FROM budget
+WHERE source = 'Instruction';
+
+DELETE FROM budget
+WHERE Source <> 'Instruction';
+
+
+--------------------------------------
+
+CREATE TABLE school_performance (
+    school_year INTEGER,
+    topic VARCHAR(50),
+    grade INTEGER,
+    district_id VARCHAR(10),
+    district_name VARCHAR(100),
+    proficient INTEGER,
+    total INTEGER,
+    percent_proficient NUMERIC(5, 2),
+    proficient_category VARCHAR(50),
+    district_office_location VARCHAR(100),
+    iowa_zip_code_tabulation_areas VARCHAR(100),
+    iowa_watersheds_huc10 VARCHAR(100),
+    iowa_watershed_subbasins_huc08 VARCHAR(100),
+    us_counties VARCHAR(100)
+);
+ALTER TABLE school_performance RENAME TO performance;
+
+ALTER TABLE performance
+DROP COLUMN district_office_location,
+DROP COLUMN iowa_zip_code_tabulation_areas,
+DROP COLUMN iowa_watersheds_huc10,
+DROP COLUMN iowa_watershed_subbasins_huc08,
+DROP COLUMN us_counties,
+DROP COLUMN school_year,
+DROP COLUMN grade;
+
+DELETE FROM performance 
+WHERE topic= 'Math';
+
+JOIN:
+
+SELECT b.*, p.topic, p.proficient, p.total, p.percent_proficient, p.proficient_category
+FROM budget b
+JOIN performance p ON b.dist = p.district_id
+WHERE b.FiscalYear = 2017;
