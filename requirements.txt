@@ -1,0 +1,17 @@
+beautifulsoup4
+dweepy
+geopy
+imageio
+ipykernel
+jupyterlab
+matplotlib
+nltk
+numpy
+pandas
+prospector
+scikit-learn
+scipy
+seaborn
+spacy
+textatistic
+textblob
