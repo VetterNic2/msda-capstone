@@ -23,6 +23,11 @@ is called preliminary cleaning of the dataset and the dataset will be cleaned ag
 report. The writer will only be using the reading proficiency rating of the 2017 11th-grade students in
 each respective district. This is to shorten the report for the tight time window
 
+## Data Cleaning/Manipulation using PostgreSQL and PgAdmin:
+
+![Alt Text](Cleaning - 1.png)
+
+![Alt Text](Cleaning - 2.png)
 
 
 -Nic Vetter
