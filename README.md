@@ -12,4 +12,11 @@ I will then forecast the minimum $/pupil schools should be spending to meet prof
 
 I am happy you are reading through this project and have a great day!
 
+# Data Sources:
+[Link Text](https://data.iowa.gov/Primary-Secondary-Ed/Math-And-Reading-Proficiency-in-Iowa-by-School-Yea/f3h8-mnxi/about_data))
+
+[Link Text](https://data.iowa.gov/School-Finance/Iowa-School-District-Expenditures-by-Fiscal-Year/uutu-bzs3/about_data)
+
+
+
 -Nic Vetter
