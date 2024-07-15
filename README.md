@@ -77,5 +77,6 @@ Before setting up the virtual environment, ensure you have Python and pip instal
    
    pip list
 
+   ## Exploratory Data Analysis in Python/Jupyter Notebooks:
 
 -Nic Vetter
