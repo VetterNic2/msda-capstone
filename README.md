@@ -25,9 +25,28 @@ each respective district. This is to shorten the report for the tight time windo
 
 ## Data Cleaning/Manipulation using PostgreSQL and PgAdmin:
 
+The below images show the cleaning SQL syntax within PgAdmin along with a JOIN function to create a singular CSV file.
+This was joined because of the ease of reading/loading within Python/pandas. 
+
 ![Alt Text](clean1.png)
 
 ![Alt Text](clean2.png)
+
+## Overview of Clean Data after PostgreSQL:
+
+The attributes after the cleaning process was completed are as follows:
+”fiscalyear”,”dist”,”district name”,”source”,”expenditures per pupil”,”amount”,”enrollment category”,”enrollment
+category number”,”topic”,”proficient”,”total”,”percent proficient”,”proficient category”.
+
+Below is a sample of the CSV’s first line of the cleaned data:
+2017,”0009”,”AGWSR”,”Instruction”,7989,4997256,”600-999”,”3”,”Reading”,32,41,”78.00”,”70.1 - 80”.
+
+If the data shown in the line above is surrounded by ””, it is a string/text data type. However, if
+the data shown in the line above is surrounded by nothing, it is an integer data type.
+
+To align with the goal of the report, the dependent variable of the project is ”percent proficient” and
+the independent variables are all of the other attributes contained within the cleaned CSV file(outlined
+above). However, the main independent variable that will be analyzed is ”expenditures per pupil”.
 
 
 -Nic Vetter
