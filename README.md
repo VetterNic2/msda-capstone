@@ -71,8 +71,11 @@ Before setting up the virtual environment, ensure you have Python and pip instal
    
 4. Install dependencies, this project's dependencies can be found in the requirements file:
 
-   pip install ""
+   pip install -r requirements.txt
 
+   Also, please verify the installation of dependencies:
+   
+   pip list
 
 
 -Nic Vetter
