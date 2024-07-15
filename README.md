@@ -17,6 +17,12 @@ I am happy you are reading through this project and have a great day!
 
 [Data Source 2](https://data.iowa.gov/School-Finance/Iowa-School-District-Expenditures-by-Fiscal-Year/uutu-bzs3/about_data)
 
+This data set was collected from the Iowa.gov website as public information. The Iowa.gov website
+has an ”Action Query” function that helps the writer filter the necessary data from the dataset. This
+is called preliminary cleaning of the dataset and the dataset will be cleaned again in section 3 of this
+report. The writer will only be using the reading proficiency rating of the 2017 11th-grade students in
+each respective district. This is to shorten the report for the tight time window
+
 
 
 -Nic Vetter
