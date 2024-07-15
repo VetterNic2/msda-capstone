@@ -48,5 +48,31 @@ To align with the goal of the report, the dependent variable of the project is �
 the independent variables are all of the other attributes contained within the cleaned CSV file(outlined
 above). However, the main independent variable that will be analyzed is ”expenditures per pupil”.
 
+### Virtual Environment Set-Up:
+
+### Installation Instructions
+
+Before setting up the virtual environment, ensure you have Python and pip installed:
+
+- **Python**: You can download it from [python.org](https://www.python.org/downloads/).
+- **pip**: Typically installed automatically with Python. You can check by running `pip --version` in your terminal.
+
+### Setting Up the Virtual Environment
+
+1. **Clone the Repo and Navigate to Your Project Directory in VSCode**:
+   
+2. Create the Virtual Environment:
+   
+   python3 -m venv myenv
+   
+3. Activate the Virtual Environment:
+   
+   myenv\Scripts\activate
+   
+4. Install dependencies, this project's dependencies can be found in the requirements file:
+
+   pip install ""
+
+
 
 -Nic Vetter
