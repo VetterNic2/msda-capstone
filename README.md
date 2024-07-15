@@ -25,9 +25,9 @@ each respective district. This is to shorten the report for the tight time windo
 
 ## Data Cleaning/Manipulation using PostgreSQL and PgAdmin:
 
-![Alt Text](Cleaning - 1.png)
+![Alt Text](clean1.png)
 
-![Alt Text](Cleaning - 2.png)
+![Alt Text](clean2.png)
 
 
 -Nic Vetter
