@@ -84,22 +84,24 @@ This report's EDA process is outlined with the following sections: Data Acquisit
 
 ### Data Acquisition - Read and View Dataset
 The first step of EDA is to acquire the cleaned data. The data was read from the CSV file using the pandas module. Also, the head of the dataset was shown as a confirmation that the data was read into the notebook.
-
+![Alt Text](data_acq.png)
 ### Data Inspection - Type / Stats / Missing Values
 The second step of EDA is to inspect the pandas dataset. The data was inspected for data type information, statistics for numerical columns, and finally, a missing value verification was conducted. However, no missing values were found, so no figures are shown in that notebook summary.
-
+![Alt Text](data_inspect2.png)
 ### Numerical Histograms
 The third step of EDA is to conduct a data distribution of numerical attributes within the dataset. More specifically, the most interesting attributes were: "expenditure per pupil" and "percent proficient".
-
+![Alt Text](percent_proficient_hist.png)
 ### Categorical Bar Charts
 The fourth step of EDA is to conduct a data distribution of categorical attributes within the dataset. More specifically, the most interesting text attributes were: "proficient category" and "enrollment category".
-   
+![Alt Text](enrollment_cat_bar.png)
 ### EDA Visualizations
 The fifth and final step of EDA is to create some visualizations that accurately capture the data, and check if any correlations need to be investigated further. 
 The first visualization was created to view the average percent proficient for each enrollment category number. 
 The second visualization was created so the minimum and maximum reading proficiency could be shown to the viewer.
 The final visualization was created to show any preliminary correlation between budget expenditure and reading proficiency.
-
+![Alt Text](visual_top10.png)
+![Alt Text](visual_proficient.png)
+![Alt Text](visual_cor_scatter.png)
 ### Conclusion of EDA
 With the results of this EDA in mind, we will focus on the correlation between enrollment/expenditure attributes, and how they affect the dependent variable of "percent proficient".
 
