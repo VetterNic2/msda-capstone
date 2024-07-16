@@ -77,6 +77,30 @@ Before setting up the virtual environment, ensure you have Python and pip instal
    
    pip list
 
-   ## Exploratory Data Analysis in Python/Jupyter Notebooks:
+   ## Overview of Exploratory Data Analysis in Python/Jupyter Notebooks:
+Choosing the right tools to conduct EDA is very important for any analyst. For the analysis of the Iowa Public School proficiency and expenditures, Jupyter Notebooks was the best option. This is because of the amazing visualization capabilities of Jupyter within a virtual environment. The modules used were as follows: pandas, matplotlib.pyplot, and seaborn.
+
+This report's EDA process is outlined with the following sections: Data Acquisition - Read and View Dataset, Data Inspection - Data Type / Numerical Stats / Missing Value Verification, Numerical Attribute Histograms, Categorical Attribute Bar Charts,  and Initial Visualizations. All of these sections provide insights into the data selected for this report/analysis. Also, there are some very interesting correlations, or lack of correlations, between certain attributes. 
+
+### Data Acquisition - Read and View Dataset
+The first step of EDA is to acquire the cleaned data. The data was read from the CSV file using the pandas module. Also, the head of the dataset was shown as a confirmation that the data was read into the notebook.
+
+### Data Inspection - Type / Stats / Missing Values
+The second step of EDA is to inspect the pandas dataset. The data was inspected for data type information, statistics for numerical columns, and finally, a missing value verification was conducted. However, no missing values were found, so no figures are shown in that notebook summary.
+
+### Numerical Histograms
+The third step of EDA is to conduct a data distribution of numerical attributes within the dataset. More specifically, the most interesting attributes were: "expenditure per pupil" and "percent proficient".
+
+### Categorical Bar Charts
+The fourth step of EDA is to conduct a data distribution of categorical attributes within the dataset. More specifically, the most interesting text attributes were: "proficient category" and "enrollment category".
+   
+### EDA Visualizations
+The fifth and final step of EDA is to create some visualizations that accurately capture the data, and check if any correlations need to be investigated further. 
+The first visualization was created to view the average percent proficient for each enrollment category number. 
+The second visualization was created so the minimum and maximum reading proficiency could be shown to the viewer.
+The final visualization was created to show any preliminary correlation between budget expenditure and reading proficiency.
+
+### Conclusion of EDA
+With the results of this EDA in mind, we will focus on the correlation between enrollment/expenditure attributes, and how they affect the dependent variable of "percent proficient".
 
 -Nic Vetter
