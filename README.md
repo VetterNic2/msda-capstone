@@ -104,5 +104,12 @@ The final visualization was created to show any preliminary correlation between 
 ![Alt Text](visual_cor_scatter.png)
 ### Conclusion of EDA
 With the results of this EDA in mind, we will focus on the correlation between enrollment/expenditure attributes, and how they affect the dependent variable of "percent proficient".
+### Predictive Analysis with Machine Learning
+The two machine learning models that were used:
+Univariate Linear Regression for both of the independent variables(enrollment and expenditure/pupil) and the same dependent variable(Reading Proficiency)
+Logistic Regression with the use of a confusion matrix for the correlation of both of the independent variables with the same dependent variable. 
+No Correlation was found using these machine learning models. I also experimented with other models, but they were no better. I felt these models did a better job of telling the story of the data.
+
+Screenshots below:
 
 -Nic Vetter
