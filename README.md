@@ -111,5 +111,8 @@ Logistic Regression with the use of a confusion matrix for the correlation of bo
 No Correlation was found using these machine learning models. I also experimented with other models, but they were no better. I felt these models did a better job of telling the story of the data.
 
 Screenshots below:
+![Alt Text](linear_enroll.png)
+![Alt Text](logistic_results.png)
+
 
 -Nic Vetter
