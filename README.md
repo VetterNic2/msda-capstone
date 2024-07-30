@@ -117,5 +117,9 @@ Screenshots below:
 ![Alt Text](linear_enroll.png)
 ![Alt Text](logistic_results.png)
 
+### Conclusion of Results
+
+The question was asked if expenditures per pupil/district enrollment affected the reading proficiency of the 2017 Junior class. After thorough research and analysis, there is no correlation between the two features and reading proficiency. In other words, the two independent features are not valuable enough to determine reading proficiency. This is because student success is dependent on much more than how much the school spends and how big the school is. Future analysis should include features like county demographics, average county income, and reduced lunch percentage. A final visual is shown below to show the lack of correlation between the 3 important attributes, and to reinforce this report’s inability to find correlations between expense, district size, and reading proficiency.
+![Alt Text](proof_correlation.png)
 
 -Nic Vetter
